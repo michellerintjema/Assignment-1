@@ -1,25 +1,26 @@
 body {
-  font-family: ;
   font-size: 18px;
   line-height: 1.5;
-  border-top: 5px solid #222;
-  border-bottom: 5px solid #222;
+  border-top: 4px solid #222;
+  border-bottom: 4px solid #222;
   margin: 30px auto;
   width: 800px;
-  padding: 50px;
-  background: #F6
+  padding: 10px 50px;
 }
 
 h1 {
+  font-family: 'Lato';
   letter-spacing: 5px;
   text-transform: uppercase;
   text-align: center;
   margin-top: 0;
   color: #030609;
   font-weight: bold;
+  font-family: 'Lato', serif;
 }
 
 h3 {
+  font-family: 'Lato';
   text-transform: uppercase;
 }
 
@@ -32,24 +33,46 @@ h3 {
   height: 200px;
   border: 1.5px solid #222;
   padding: 5px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
   margin-left: 20px;
 }
+
+.year {
+  font-style: italic;
+}
+
 nav {
   text-align: center;
   color: #222;
 }
+
 nav ul {
   padding-left: 0;
   padding-bottom: 0;
   list-style-type: none;
 }
+
 nav li {
   display: inline-block;
+  font-family: 'lato';
 }
 
 a {
   font-weight: bold;
   color: #05080C;
+}
+
+.experience {
+  font-weight: bold;
+}
+
+.developer {
+  font-family: 'Lato';
+  font-weight: bold;
+}
+
+.citipix, .startup, .relaxr {
+  border: 1px solid black;
+  margin: 10px 90px;
 }
